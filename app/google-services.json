@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "797428650586",
+    "firebase_url": "https://noonacademy-88a19.firebaseio.com",
+    "project_id": "noonacademy-88a19",
+    "storage_bucket": "noonacademy-88a19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797428650586:android:b3f4b0e5d0721538",
+        "android_client_info": {
+          "package_name": "com.noonacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797428650586-9gcd6frul96iht0dbgcpmc7kgb82s8li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfbfOxUL70gFm2GmEueh-kKugYrHL1m9I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

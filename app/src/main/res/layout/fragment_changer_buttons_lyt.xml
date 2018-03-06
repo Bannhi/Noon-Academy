@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/total_LL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+
+    <!--app:srcCompat="@drawable/group_not_filled"-->
+
+    <LinearLayout
+        android:id="@+id/leftll"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/subject_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="7dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/subject" />
+
+            <TextView
+                android:id="@+id/tv_sub_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subject_icon"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="Subjects"
+                android:visibility="visible"
+                android:layout_marginTop="5dp"
+                android:textColor="#FF606060"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/midll"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/add_sub_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/add"
+                android:gravity="center_horizontal"
+                 />
+
+            <TextView
+                android:id="@+id/tv_add_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/add_sub_icon"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Add Subject"
+                android:visibility="visible"
+                android:textColor="#FF606060"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rightll"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/draw_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/draw"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/tv_draw"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/draw_icon"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="Draw"
+                android:visibility="visible"
+                android:textColor="#FF606060"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

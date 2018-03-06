@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.noonacademy.view.fragment.DrawFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.noonacademy.view.CanvasDrawView
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+
+    <ImageView
+        android:id="@+id/undo"
+        android:padding="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="50dp"
+        android:src="@drawable/undo"/>
+
+    <ImageView
+        android:id="@+id/redo"
+        android:padding="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_above="@+id/undo"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/redo"/>
+    <ImageView
+        android:id="@+id/change_col"
+        android:padding="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_above="@+id/redo"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/edit_col"/>
+
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/change_col"
+        android:layout_alignStart="@+id/change_col"
+        android:padding="5dp"
+        android:src="@drawable/save" />
+
+</RelativeLayout>
+
